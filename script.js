@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "color": {
-        "value": "#00bfff"
+        "value": "#00ff66"
       },
       "shape": {
         "type": "circle"
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#00bfff",
+        "color": "#00ff66",
         "opacity": 0.4,
         "width": 1
       },
@@ -110,7 +110,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Define o estado inicial com base no tema atual
   var temaAtual = "escuro"; 
   themeToggle.addEventListener("click", function () {
     temaAtual = temaAtual === "claro" ? "escuro" : "claro";
